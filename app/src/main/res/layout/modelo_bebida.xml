@@ -2,20 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#00BCD4"
+        android:background="#009688"
         android:orientation="horizontal">
 
         <ImageView
+            android:id="@+id/idimagembeb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/coca4"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/coca6" />
         <!-- 128 px a imagem-->
 
         <LinearLayout
@@ -24,6 +24,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/idnomebeb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -34,28 +35,30 @@
 
 
             <TextView
+                android:id="@+id/iddescrbeb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Uma saborosa bebida feita de cola"
-                android:textStyle="italic"
-                android:textSize="15sp" />
+                android:text="Uma saborosa bebida sabor original"
+                android:textSize="13sp"
+                android:textStyle="normal" />
 
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="7dp">
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
 
                 <RatingBar
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:numStars="1"
-                    />
+                    android:numStars="1" />
 
 
                 <TextView
+                    android:id="@+id/idratingbeb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -64,8 +67,15 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="130dp"
+                    android:layout_marginLeft="100dp"
+                    android:src="@drawable/ic_baseline_favorite" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
                     android:src="@drawable/ic_baseline_share" />
+
 
             </LinearLayout>
         </LinearLayout>
