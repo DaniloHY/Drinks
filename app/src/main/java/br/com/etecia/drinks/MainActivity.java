@@ -14,15 +14,15 @@ public class MainActivity extends AppCompatActivity {
 
     ListView idLista;
 
-    String nome[] = {"Coca-Cola", "Fanta Laranja", "Fanta Uva", "Pepsi", "Guaraná Antartica", "Dolly"};
+    String nome[] = {"Coca-Cola", "Fanta Laranja", "Fanta Uva", "Pepsi", "Guaraná Antartica", "Água"};
     String descricao[] = {"Uma saborosa bebida sabor original",
             "Uma saborosa bebida sabor laranja",
             "Uma saborosa bebida sabor uva",
             "Uma saborosa bebida sabor original",
             "Uma saborosa bebida sabor guaraná",
-            "Uma saborosa bebida sabor guaraná"};
-    String rating[] = {"4.8", "4.5", "4.6", "4.4", "5", "4"};
-    int bebidas[] = {R.drawable.coca6, R.drawable.fantal, R.drawable.fantau, R.drawable.pepsi, R.drawable.guarana, R.drawable.dolly};
+            "Água Mineral"};
+    String rating[] = {"4.8", "4.5", "4.6", "4.4", "5", "5"};
+    int bebidas[] = {R.drawable.coca7, R.drawable.fantal, R.drawable.fantau, R.drawable.pepsi, R.drawable.guarana, R.drawable.agua};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 0;
+
+            return bebidas.length;
         }
 
         @Override
