@@ -7,7 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#009688"
+        android:background="#c0c0c0"
         android:orientation="horizontal">
 
         <ImageView
@@ -30,6 +30,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="3dp"
                 android:text="Coca-Cola"
+                android:textColor="#000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -40,6 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Uma saborosa bebida sabor original"
+                android:textColor="#000"
                 android:textSize="13sp"
                 android:textStyle="normal" />
 
@@ -62,6 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
+                    android:textColor="#000"
                     android:text="4.8" />
 
                 <ImageView
